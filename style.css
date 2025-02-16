@@ -1,0 +1,22 @@
+.leader__white .img{
+	position:relative
+}
+.leader__white .img:before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:15px;
+	left:15px;
+	height:calc(100% - 30px);
+	border-radius:2px;
+	width:calc(100% - 30px);
+	border:1px solid rgba(255,255,255,0.3)
+}
+
+.leader__white .hit__img{
+	top:15px;
+	right:15px;
+	left:auto;
+}
+
+
